@@ -1,0 +1,13 @@
+[project]
+name = "agent-challange"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.14.2",
+    "fastmcp>=2.12.5",
+    "google-adk>=1.17.0",
+    "html2text>=2025.4.15",
+    "mcp[cli]>=1.16.0",
+]
