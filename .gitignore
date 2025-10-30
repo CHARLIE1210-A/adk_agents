@@ -10,10 +10,10 @@ wheels/
 .venv
 example_agent/
 google_map_mcp/
-mcp_example_agent/
 mcp_local_example/
 mcp_server/
 wiki_agent/
 
 # Env files
 notion_mcp_agent/.env
+filesystem_mcp_agent/.env
