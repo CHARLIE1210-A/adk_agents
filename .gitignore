@@ -5,6 +5,7 @@ build/
 dist/
 wheels/
 *.egg-info
+requirements.txt
 
 # Virtual environments
 .venv
@@ -13,7 +14,12 @@ google_map_mcp/
 mcp_local_example/
 mcp_server/
 wiki_agent/
+adk_agent_builder/
+open_api_agent/artapi_agent/
+open_api_agent/first_example/
+
 
 # Env files
 notion_mcp_agent/.env
 filesystem_mcp_agent/.env
+open_api_agent/dogapi_agent/.env

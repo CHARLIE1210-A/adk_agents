@@ -7,7 +7,12 @@ requires-python = ">=3.13"
 dependencies = [
     "beautifulsoup4>=4.14.2",
     "fastmcp>=2.12.5",
-    "google-adk>=1.17.0",
+    "google-adk>=1.18.0",
     "html2text>=2025.4.15",
     "mcp[cli]>=1.16.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "adk_agent_builder",
 ]
